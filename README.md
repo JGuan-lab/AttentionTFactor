@@ -156,7 +156,6 @@ The additional `Interpretability Analysis/main_model_AttentionTFactor.py` curren
 ## Reproducibility and repository notes
 
 - Paths, original dataset ordering, training seeds, and saved fold checkpoints can affect reproduction. Read each experiment script's settings before running it.
-- `.gitignore` excludes local IDE files, Python caches, virtual environments, generated checkpoints and common analysis output directories. It intentionally **does not** exclude `Datasets/` or CSV files.
 - If you wish to publish trained weights, explicitly change the `.gitignore` checkpoint rules and choose a suitable hosting method (for example GitHub Releases or Git LFS for larger artifacts).
 - Please verify dataset sharing permissions and add an explicit `LICENSE` file if you intend to grant others reuse rights. No license or data provenance document was supplied in the archive.
 - If this repository accompanies a paper, add the paper citation, exact experimental environment/package versions, pretrained checkpoint sources, and dataset attribution once available.
