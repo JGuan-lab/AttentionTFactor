@@ -1,0 +1,17 @@
+# Python packages imported by the project scripts.
+# Install with: python -m pip install -r requirements.txt
+# Versions are deliberately not pinned because the supplied source archive
+# does not include a tested environment or lock file.
+
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+torch
+requests
+captum
+
+# The Rate4Site notebook runs in Google Colab and separately installs the
+# non-Python executables: NCBI BLAST+, MAFFT, Rate4Site, and wget.
+# See README.md for the notebook's additional input requirements.
